@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ContactosApi
+        working-directory: contactosapi
     steps:
       - name: Check out the repo
         uses: actions/checkout@v3
