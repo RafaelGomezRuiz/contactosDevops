@@ -20,4 +20,4 @@ jobs:
 
       - name: Build Docker NET image
         run: docker build --platform linux -t $IMAGE_BASE_NAME .
-        working-directory: ContactosApi
+        working-directory: .
